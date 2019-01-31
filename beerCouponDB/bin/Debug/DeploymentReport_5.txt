@@ -1,0 +1,42 @@
+﻿** Met en surbrillance
+     Tables à reconstruire
+       [dbo].[Bars]
+       [dbo].[Cities]
+       [dbo].[Coupons]
+       [dbo].[Users]
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       La colonne [dbo].[Bars].[Desc] est en cours de suppression, des données risquent d'être perdues.
+       La colonne [dbo].[Cities].[Desc] est en cours de suppression, des données risquent d'être perdues.
+       La colonne [dbo].[Coupons].[Desc] est en cours de suppression, des données risquent d'être perdues.
+       La colonne [dbo].[Coupons].[Description] de la table [dbo].[Coupons] doit être ajoutée mais la colonne ne comporte pas
+         de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne
+         fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+
+** Actions de l'utilisateur
+     Supprimer
+       contrainte sans nom sur [dbo].[Coupons] (Contrainte par défaut)
+       contrainte sans nom sur [dbo].[Bars] (Clé étrangère)
+       contrainte sans nom sur [dbo].[Coupons] (Clé étrangère)
+       contrainte sans nom sur [dbo].[Users] (Clé étrangère)
+     Reconstruction de la table
+       [dbo].[Bars] (Table)
+       [dbo].[Cities] (Table)
+       [dbo].[Coupons] (Table)
+       [dbo].[Users] (Table)
+
+** Actions de support
+     Créer
+       Clé étrangère: contrainte sans nom sur [dbo].[Bars] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[Coupons] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[Users] (Clé étrangère)
+
+La colonne [dbo].[Bars].[Desc] est en cours de suppression, des données risquent d'être perdues.
+La colonne [dbo].[Cities].[Desc] est en cours de suppression, des données risquent d'être perdues.
+La colonne [dbo].[Coupons].[Desc] est en cours de suppression, des données risquent d'être perdues.
+La colonne [dbo].[Coupons].[Description] de la table [dbo].[Coupons] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+

@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Users]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[FirstName] VARCHAR (20) NOT NULL,
+	[Email] VARCHAR (50) NOT NULL,
+	[Password] VARCHAR (50) NOT NULL,
+	[FkBarId] INT NOT NULL, 
+	FOREIGN KEY (FkBarId) REFERENCES Bars(Id)
+)

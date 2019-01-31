@@ -1,0 +1,6 @@
+C:\Users\gcuyl\source\repos\beerCouponDB\beerCouponDB\bin\Debug\beerCouponsDB.dacpac
+C:\Users\gcuyl\source\repos\beerCouponDB\beerCouponDB\bin\Debug\beerCouponDB.dll
+C:\Users\gcuyl\source\repos\beerCouponDB\beerCouponDB\bin\Debug\beerCouponDB.pdb
+C:\Users\gcuyl\source\repos\beerCouponDB\beerCouponDB\obj\Debug\beerCouponsDB.sqlprojAssemblyReference.cache
+C:\Users\gcuyl\source\repos\beerCouponDB\beerCouponDB\obj\Debug\beerCouponDB.dll
+C:\Users\gcuyl\source\repos\beerCouponDB\beerCouponDB\obj\Debug\beerCouponDB.pdb

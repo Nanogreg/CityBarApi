@@ -1,0 +1,30 @@
+﻿** Met en surbrillance
+     Tables à reconstruire
+       [dbo].[User]
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       La colonne [dbo].[User].[Email] de la table [dbo].[User] doit être ajoutée mais la colonne ne comporte pas de valeur par
+         défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour
+         éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null
+         ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[User].[FirstName] de la table [dbo].[User] doit être ajoutée mais la colonne ne comporte pas de valeur
+         par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas.
+         Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs
+         Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+
+** Actions de l'utilisateur
+     Supprimer
+       contrainte sans nom sur [dbo].[User] (Clé étrangère)
+     Reconstruction de la table
+       [dbo].[User] (Table)
+
+** Actions de support
+     Créer
+       Clé étrangère: contrainte sans nom sur [dbo].[User] (Clé étrangère)
+
+La colonne [dbo].[User].[Email] de la table [dbo].[User] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[User].[FirstName] de la table [dbo].[User] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+

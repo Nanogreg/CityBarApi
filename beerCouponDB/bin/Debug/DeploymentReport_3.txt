@@ -1,0 +1,22 @@
+﻿** Met en surbrillance
+     Tables à reconstruire
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[Bars] (Table)
+       [dbo].[Cities] (Table)
+       [dbo].[Coupons] (Table)
+       [dbo].[Users] (Table)
+       Contrainte par défaut: contrainte sans nom sur [dbo].[Coupons] (Contrainte par défaut)
+       Clé étrangère: contrainte sans nom sur [dbo].[Bars] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[Coupons] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[Users] (Clé étrangère)
+
+** Actions de support
