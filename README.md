@@ -12,7 +12,7 @@ L'API expose des points de terminaison (endpoints) pour récupérer les ressourc
 
 ## 🔒 Sécurité
 
-* **Aucune authentification (No auth)** n'est requise pour le moment. L'ensemble des endpoints est accessible publiquement.
+* **Aucune authentification (No auth)** n'est requise pour le moment. L'ensemble des endpoints sont accessibles publiquement.
 
 ## 🛠️ Technologies
 
